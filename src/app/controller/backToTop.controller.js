@@ -25,7 +25,7 @@
     }
 
     angular
-        .module('component')
+        .module('backToTop')
         .controller('backToTopController', function ($window, $scope, $document, $interval) {
 
             var that = this;
