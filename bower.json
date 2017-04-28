@@ -1,0 +1,35 @@
+{
+  "name": "gm-back-to-top",
+  "homepage": "https://github.com/Megale/gm-back-to-top",
+  "authors": [
+    "Geraldo Megale <megale.petrobras.com.br>"
+  ],
+  "description": "An all angular back to top button that magically appears on your screen",
+  "main": "src/app/component/backToTop.component.js",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "backToTop",
+    "angular",
+    "top",
+    "scroll",
+    "wheel"
+  ],
+  "license": "MIT",
+
+  "dependencies": {
+
+    "angular-material": "~1.1.0",
+    "animate.css": "~3.4.0",
+    "angular": ">1.5.3"
+  },
+
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
