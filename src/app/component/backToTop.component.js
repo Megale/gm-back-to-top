@@ -6,7 +6,7 @@
         .component('gmBackToTop', {
 
             controller: 'backToTopController',
-            templateUrl: 'app/component/template/backToTop.tmpl.html',
+            templateUrl: 'src/app/template/backToTop.tmpl.html',
             bindings: {
                         gmspeed: '<',
                         gmstyle: '@'

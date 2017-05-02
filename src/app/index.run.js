@@ -2,13 +2,13 @@
   'use strict';
 
   angular
-    .module('backToTop')
+    .module('backToTopTest')
     .run(runBlock);
 
   /** @ngInject */
   function runBlock($log) {
 
-    $log.debug('backToTop module loaded');
+    $log.debug('backToTopTest module loaded');
   }
 
 })();
