@@ -5,17 +5,23 @@
     "Geraldo Megale <megale.petrobras.com.br>"
   ],
   "description": "An all angular back to top button that magically appears on your screen",
-  "main": "src/app/component/backToTop.component.js",
+
+  "main": ["src/app/component/backToTop.component.js", "src/app/config/backToTop.module.js","src/app/config/backToTop.run.js",
+  "src/app/config/backToTop.controller.js", "src/css/arrowIcon.css", "src/css/backToTop.css", "src/template/backToTop.tmpl.html"],
+
   "moduleType": [
     "es6"
   ],
+
   "keywords": [
     "backToTop",
     "angular",
+    "material",
     "top",
     "scroll",
     "wheel"
   ],
+  
   "license": "MIT",
 
   "dependencies": {
