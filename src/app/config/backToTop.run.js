@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('backToTop')
+    .module('backToTop', [])
     .run(runBlock);
 
   /** @ngInject */
