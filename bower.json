@@ -6,8 +6,12 @@
   ],
   "description": "An all angular back to top button that magically appears on your screen",
 
-  "main": ["src/app/component/backToTop.component.js", "src/app/config/backToTop.module.js","src/app/config/backToTop.run.js",
-  "src/app/config/backToTop.controller.js", "src/css/arrowIcon.css", "src/css/backToTop.css", "src/template/backToTop.tmpl.html"],
+ "main": [ "src/app/config/backToTop.module.js", 
+           "src/app/component/backToTop.component.js",
+           "src/app/config/backToTop.run.js", 
+           "src/app/controller/backToTop.controller.js", 
+           "src/app/css/arrowIcon.css", 
+           "src/app/css/backToTop.css" ],
 
   "moduleType": [
     "es6"
@@ -26,6 +30,7 @@
 
   "dependencies": {
 
+    "material-icons" : "~0.1.0",
     "angular-material": "~1.1.0",
     "animate.css": "~3.4.0",
     "angular": ">1.5.3"
