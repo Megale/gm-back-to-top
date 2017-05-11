@@ -1,6 +1,9 @@
 # gm-back-to-top
 Angular/Angular Material "Back to Top Button" that magically appears on your page when you scroll down.
 
+[gm-back-to-top] (https://cloud.githubusercontent.com/assets/2500619/25963648/6c4de1b0-3658-11e7-9c92-f26038b80c44.PNG)
+
+
 # Example
 Check [this](https://plnkr.co/edit/58MJaYsQpOKDkhYdMDBD) to get a hold of a simple example.
 
