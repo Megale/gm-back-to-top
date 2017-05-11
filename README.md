@@ -1,11 +1,10 @@
 # gm-back-to-top
 Angular/Angular Material "Back to Top Button" that magically appears on your page when you scroll down.
 
-[gm-back-to-top] (https://cloud.githubusercontent.com/assets/2500619/25963648/6c4de1b0-3658-11e7-9c92-f26038b80c44.PNG)
-
+![back-to-top](https://cloud.githubusercontent.com/assets/2500619/25964032/e31a19fc-3659-11e7-9038-63c2ef0d651d.PNG)
 
 # Example
-Check ![this](https://plnkr.co/edit/58MJaYsQpOKDkhYdMDBD) to get a hold of a simple example.
+Check [this](https://plnkr.co/edit/58MJaYsQpOKDkhYdMDBD) to get a hold of a simple example.
 
 # How does it work?
 When the component notices a scroll on your page, a FAB button will appear on the bottom right of you screen. If you click it, it will take the page
