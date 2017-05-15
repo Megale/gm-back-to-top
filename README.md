@@ -1,5 +1,6 @@
 # gm-back-to-top
-Angular/Angular Material "Back to Top Button" that magically appears on your page when you scroll down. 
+Angular/Angular Material "Back to Top Button" that magically appears on your page when you scroll down. If you already make use of angular and angular material, this is the component for you.
+
 
 ![back-to-top](https://cloud.githubusercontent.com/assets/2500619/25964032/e31a19fc-3659-11e7-9038-63c2ef0d651d.PNG)
 
@@ -21,18 +22,47 @@ to its top.
 - Jquery
 - Angular
 - Angular Material
-- Material-Icons.
+- Material-Icons
 
 
 
 
 ## How do you use it? Four easy steps.
-1. Install it via bower: ````bower install gm-back-to-top````
+1. Install it via bower: ````bower install gm-back-to-top```` 
 
-2. Add the component to your index.html. If you wan't to make it global, just put in your index file. If you want to have it on a specific page, just
+2. Load the scripts and the CSSs. Follow the order given in this example!
+
+```` html
+<!DOCTYPE html>
+<html ng-app = "backToTop">
+
+  <head>
+    .....    
+
+    <script src="backToTop.module.js"></script>
+    <script src="backToTop.component.js"></script>
+    <script src="backToTop.controller.js"></script>
+    <script src="backToTop.run.js"></script>
+  </head>
+  ......
+
+````
+
+3. Add the gm-back-to-top component as a dependency to one of your modules: 
+
+```` javascript
+(function() {
+  'use strict';
+  angular
+    .module('yourModule', ['backToTop']);
+
+})();
+````
+
+4. Add the component to your index.html. If you wan't to make it global, just put in your index file. If you want to have it on a specific page, just
 put it there. Check the example below:
 
-``` html
+```` html
 <!doctype html>
 <html ng-app="yourMainModule">
 
@@ -63,42 +93,8 @@ put it there. Check the example below:
  The acceleration of the scroll folows the COS(pi) curve so expect an easy in-out effect. -->
 </html>
 
-```
-
-3. Modify your index.html to include a link to google fonts:
-
-```` html
-<!doctype html>
-<html ng-app="yourMainModule">
-
-<head>
-  <base href=""> 
-  <meta charset="utf-8">
-
-  <title>Your Title - dev</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-</head>
-...
-````
-
-
-4. Add the gm-back-to-top component as a dependecy to one of your modules: 
-
-```` javascript
-(function() {
-  'use strict';
-  angular
-    .module('yourModule', ['backToTop']);
-
-})();
 ````
 
 
 
 
-
-You can control how fast or how slow the scroll happens. Just change the gmspeed atribute to do so (in miliseconds). The acceleration of the scroll folows the COS(pi) curve so expect an easy in-out effect. 
