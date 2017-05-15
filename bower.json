@@ -6,7 +6,7 @@
   ],
   "description": "An all angular back to top button that magically appears on your screen",
 
- "main": [ "./dist/gmBackToTop-min.js", "./dist/gmBackToTop-min.css" ],
+ "main": [ "dist/gmBackToTop-min.js", "dist/gmBackToTop-min.css" ],
 
   "moduleType": [
     "es6"
