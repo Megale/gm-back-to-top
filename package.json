@@ -1,6 +1,6 @@
 {
   "name": "gm-back-to-top",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "angular/angular material back to top button!",
   "main": "index.js",
   "dependencies": {

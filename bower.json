@@ -31,10 +31,10 @@
   },
 
   "ignore": [
-    "**/.*",
+    "src",
+    "gulp",
+    "gulpfile.js",
     "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+    "bower_components"
   ]
 }

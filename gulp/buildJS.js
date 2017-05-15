@@ -17,11 +17,7 @@
 
             .pipe(ngAnnotate())
 
-            .pipe(concat('gmBackToTop.js'))
-
-            .pipe(gulp.dest(jsDest))
-
-            .pipe(rename('gmBackToTop-min.js'))
+            .pipe(concat('gmBackToTop-min.js'))
 
             .pipe(uglify())
 
