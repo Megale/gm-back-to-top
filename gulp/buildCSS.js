@@ -20,7 +20,7 @@
 
         .pipe(cleanCSS({compatibility: 'ie8'}))
 
-        .pipe(rename('gmBackToTop.min.css'))
+        .pipe(rename('gmBackToTop-min.css'))
 
         .pipe(gulp.dest(jsDest));
     });

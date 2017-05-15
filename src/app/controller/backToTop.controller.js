@@ -24,6 +24,7 @@
         this.gmspeed = this.gmspeed || 500;
     }
 
+      /** @ngInject */
     angular
         .module('backToTop')
         .controller('backToTopController', function ($window, $scope, $document, $interval) {

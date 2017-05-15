@@ -9,7 +9,9 @@
     "gulp-uglify": "^2.1.2"
   },
   "devDependencies": {
-    "gulp-clean-css": "^3.2.0"
+    "gulp-clean-css": "^3.2.0",
+    "gulp-minify": "^1.0.0",
+    "gulp-ng-annotate": "^2.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
