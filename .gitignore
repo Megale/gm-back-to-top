@@ -3,5 +3,4 @@ bower_components/
 coverage/
 .sass-cache/
 .tmp/
-dist/
 doc/
