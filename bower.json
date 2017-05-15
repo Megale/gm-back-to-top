@@ -2,11 +2,11 @@
   "name": "gm-back-to-top",
   "homepage": "https://github.com/Megale/gm-back-to-top",
   "authors": [
-    "Geraldo Megale <megale.petrobras.com.br>"
+    "Geraldo Megale <megale.geraldo@gmail.com>"
   ],
   "description": "An all angular back to top button that magically appears on your screen",
 
- "main": [ "dist/gmBackToTop-min.js", "dist/gmBackToTop-min.css" ],
+ "main": [ "./dist/gmBackToTop-min.js", "./dist/gmBackToTop-min.css" ],
 
   "moduleType": [
     "es6"
