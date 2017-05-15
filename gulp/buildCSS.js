@@ -14,13 +14,9 @@
 
     return gulp.src(cssFiles)
 
-        .pipe(concat('gmBackToTop.css'))
-
-        .pipe(gulp.dest(jsDest))
-
         .pipe(cleanCSS({compatibility: 'ie8'}))
 
-        .pipe(rename('gmBackToTop-min.css'))
+        .pipe(concat('gmBackToTop-min.css'))
 
         .pipe(gulp.dest(jsDest));
     });
