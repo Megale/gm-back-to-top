@@ -1,0 +1,6 @@
+{
+
+  "proxy":"http://localhost:53128",
+  "https-proxy":"http://localhost:53128",
+  "strict-ssl": false
+}
