@@ -31,7 +31,7 @@
   },
 
   "ignore": [
-    "src",
+    "src", 
     ".gitignore",
     "dist/gmBackToTop.js",
     "dist/gmBackToTop.css",
