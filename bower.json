@@ -37,8 +37,6 @@
   "ignore": [
     "src", 
     ".gitignore",
-    "./dist/gmBackToTop.js",
-    "./dist/gmBackToTop.css",
     "gulp",
     "gulpfile.js",
     "node_modules",
