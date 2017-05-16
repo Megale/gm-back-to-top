@@ -33,7 +33,6 @@
   "ignore": [
     "src",
     ".gitignore",
-    "dist",
     "gulp",
     "gulpfile.js",
     "node_modules",
