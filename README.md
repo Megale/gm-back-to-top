@@ -39,10 +39,8 @@ to its top.
   <head>
     .....    
 
-    <script src="backToTop.module.js"></script>
-    <script src="backToTop.component.js"></script>
-    <script src="backToTop.controller.js"></script>
-    <script src="backToTop.run.js"></script>
+    <script src="backToTop-min.js"></script>
+    <script src="backToTop-min.css"></script>
   </head>
   ......
 
