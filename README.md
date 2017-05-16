@@ -39,8 +39,8 @@ to its top.
   <head>
     .....    
 
-    <script src="backToTop-min.js"></script>
-    <script src="backToTop-min.css"></script>
+    <script src="bower_components/dist/backToTop-min.js"></script>
+    <script src="bower_components/dist/backToTop-min.css"></script>
   </head>
   ......
 
