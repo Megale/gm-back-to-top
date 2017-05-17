@@ -1,6 +1,7 @@
 before_script:
   - npm install -g bower
   - bower install -f
+  - npm install karma-phantomJS-launcher --save-dev
 
 language: node_js
 node_js:
