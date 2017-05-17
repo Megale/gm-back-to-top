@@ -15,7 +15,7 @@ module.exports = function(config) {
 
     frameworks: ['wiredep', 'jasmine'],
 
-      plugins : [ 'karma-jasmine', 'karma-wiredep', 'karma-chrome-launcher' ],
+      plugins : [ 'karma-jasmine', 'karma-wiredep', 'karma-chrome-launcher', 'karma-phantomJS-launcher' ],
 
 
        wiredep: {
@@ -72,7 +72,7 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['Chrome'],
+    browsers: ['phantomJS'],
 
 
     // Continuous Integration mode
