@@ -23,7 +23,7 @@
     "gulp-uglify": "^2.1.2"
   },
   "scripts": {
-    "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS"
+    "test": "./node_modules/.bin/karma start --log-level info --single-run"
   },
   "repository": {
     "type": "git",
