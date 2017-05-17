@@ -4,7 +4,6 @@
   "description": "angular/angular material back to top button!",
   "main": "index.js",
   "dependencies": {},
-  
   "devDependencies": {
     "angular-mock": "^1.0.0",
     "gulp-clean-css": "^3.2.0",
@@ -17,10 +16,11 @@
     "karma-chrome-launcher": "^2.1.1",
     "karma-jasmine": "^1.1.0",
     "karma-phantomjs-launcher": "^1.0.4",
-    "karma-wiredep": "^1.0.3"
+    "karma-wiredep": "^1.0.3",
+    "phantomjs-prebuilt": "^2.1.14"
   },
   "scripts": {
-    "test": "./node_modules/.bin/karma start --browsers Firefox --single-run"
+    "test": "./node_modules/.bin/karma start --browsers PhantomJS --single-run"
   },
   "repository": {
     "type": "git",
