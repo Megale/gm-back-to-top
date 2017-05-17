@@ -6,7 +6,8 @@
   "dependencies": {
     "gulp-concat": "^2.6.1",
     "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^2.1.2"
+    "gulp-uglify": "^2.1.2",
+    "karma-phantomjs-launcher": "^1.0.4"
   },
   "devDependencies": {
     "angular-mock": "^1.0.0",
@@ -16,7 +17,10 @@
     "karma-chrome-launcher": "^2.1.1",
     "karma-jasmine": "^1.1.0",
     "karma-phantomjs-launcher": "^1.0.4",
-    "karma-wiredep": "^1.0.3"
+    "karma-wiredep": "^1.0.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.1.2"
   },
   "scripts": {
     "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS"
