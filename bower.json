@@ -5,13 +5,13 @@
     "Geraldo Megale <megale.petrobras.com.br>"
   ],
   "description": "An all angular back to top button that magically appears on your screen",
-
- "main": [ "dist/gmBackToTop-min.js", "dist/gmBackToTop-min.css" ],
-
+  "main": [
+    "dist/gmBackToTop-min.js",
+    "dist/gmBackToTop-min.css"
+  ],
   "moduleType": [
     "es6"
   ],
-
   "keywords": [
     "backToTop",
     "angular",
@@ -20,16 +20,12 @@
     "scroll",
     "wheel"
   ],
-  
   "license": "MIT",
-
   "dependencies": {
-
-    "jquery" : "~2.1.4",
+    "jquery": "~2.1.4",
     "angular-material": "~1.1.0",
     "angular": ">1.5.3"
   },
-
   "ignore": [
     "src",
     ".gitignore",
@@ -37,5 +33,8 @@
     "gulpfile.js",
     "node_modules",
     "bower_components"
-  ]
+  ],
+  "devDependencies": {
+    "angular-mocks": "~1.6.4"
+  }
 }
