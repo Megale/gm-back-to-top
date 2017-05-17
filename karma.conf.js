@@ -12,7 +12,7 @@ module.exports = function(config) {
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
     //wiredep é usado para identificar as dependencias do bower e inclui-las na pagina de teste na ordem correta.
     //jasmine é o framework de teste em si.
-    
+
     frameworks: ['wiredep', 'jasmine'],
 
       plugins : [ 'karma-jasmine', 'karma-wiredep', 'karma-chrome-launcher', 'karma-phantomJS-launcher' ],
@@ -72,7 +72,7 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['PhantomJS'],
+    browsers: ['Chrome'],
 
 
     // Continuous Integration mode
