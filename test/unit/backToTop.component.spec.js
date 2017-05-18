@@ -21,7 +21,7 @@
 
             var backToTopController = $componentController('gmBackToTop');
 
-            expect(backToTopController).not.toEqual(null);
+            expect(backToTopController).toEqual(null);
 
         });
 
