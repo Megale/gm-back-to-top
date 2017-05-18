@@ -3,7 +3,13 @@
   "version": "0.1.5",
   "description": "angular/angular material back to top button!",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+
+   "karma": "^1.7.0",
+   "karma-phantomjs-launcher": "^1.0.4"
+  },
+
+
   "devDependencies": {
     "angular-mock": "^1.0.0",
     "gulp-clean-css": "^3.2.0",
