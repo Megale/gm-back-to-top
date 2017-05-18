@@ -1,8 +1,6 @@
+var gulp = require('gulp');
 
 (function(){
-
-
-    var gulp = require('gulp');
 
     gulp.task('build', ['buildJS', 'buildCSS']);
 

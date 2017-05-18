@@ -20,7 +20,7 @@ module.exports = function(config) {
 
        wiredep: {
          
-            devDependencies: true, // default: false  
+            devDependencies: true // default: false  
          
         },
 
