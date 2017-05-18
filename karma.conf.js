@@ -15,7 +15,7 @@ module.exports = function(config) {
 
     frameworks: ['wiredep', 'jasmine'],
 
-      plugins : [ 'karma-jasmine', 'karma-wiredep', 'karma-chrome-launcher', 'karma-phantomJS-launcher' ],
+      plugins : [ 'karma-jasmine', 'karma-wiredep' ],
 
 
        wiredep: {
