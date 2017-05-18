@@ -5,8 +5,7 @@
   "main": "index.js",
   "dependencies": {
 
-   "karma": "^1.7.0",
-   "karma-phantomjs-launcher": "^1.0.4"
+
   },
 
 
