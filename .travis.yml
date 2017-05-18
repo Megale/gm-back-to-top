@@ -3,9 +3,10 @@ before_script:
   - sh -e /etc/init.d/xvfb start
   - sudo apt-get install libfontconfig1
   - npm install -g karma-cli
+  - npm install npm@latest -g
   - npm install -g bower
   - bower install -f
 
 language: node_js
 node_js:
- - 0.8
+ - 4.2.4
