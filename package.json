@@ -6,6 +6,7 @@
   "dependencies": {},
   "devDependencies": {
     "angular-mock": "^1.0.0",
+    "firefox": "0.0.1",
     "gulp-clean-css": "^3.2.0",
     "gulp-concat": "^2.6.1",
     "gulp-minify": "^1.0.0",
@@ -14,6 +15,7 @@
     "gulp-uglify": "^2.1.2",
     "karma": "^1.7.0",
     "karma-chrome-launcher": "^2.1.1",
+    "karma-firefox-launcher": "^1.0.1",
     "karma-jasmine": "^1.1.0",
     "karma-phantomjs-launcher": "^1.0.4",
     "karma-wiredep": "^1.0.3",
@@ -21,7 +23,7 @@
     "phantomjs-prebuilt": "^2.1.14"
   },
   "scripts": {
-    "test": "./node_modules/.bin/karma start --browsers Firefox --single-run"
+    "test": "./node_modules/.bin/karma start --browsers firefox --single-run"
   },
   "repository": {
     "type": "git",

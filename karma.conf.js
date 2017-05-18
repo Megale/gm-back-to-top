@@ -15,7 +15,7 @@ module.exports = function(config) {
 
     frameworks: ['wiredep', 'jasmine'],
 
-      plugins : [ 'karma-jasmine', 'karma-wiredep' ],
+      plugins : [ 'karma-jasmine', 'karma-wiredep', 'karma-firefox-launcher' ],
 
 
        wiredep: {
@@ -24,6 +24,7 @@ module.exports = function(config) {
          
         },
 
+        browsers: [ 'Firefox'],
 
     // list of files / patterns to load in the browser
     //Preciso colocar os modulos, controllers, tudo que for testado em conjunto com os testes em si.
