@@ -98,6 +98,5 @@ put it there. Check the example below:
 
 ````
 
-
-
+You can control how fast or how slow the scroll happens. Just change the gmspeed atribute to do so (in miliseconds). The acceleration of the scroll folows the COS(pi) curve so expect an easy in-out effect. 
 

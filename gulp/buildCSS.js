@@ -1,12 +1,10 @@
 var gulp = require('gulp');
+var cleanCSS = require('gulp-clean-css');
+var rename = require('gulp-rename');  
+var concat = require('gulp-concat');  
+var uglify = require('gulp-uglify'); 
 
 (function(){
-
-    var cleanCSS = require('gulp-clean-css');
-    var rename = require('gulp-rename');  
-    var concat = require('gulp-concat');  
-    var uglify = require('gulp-uglify'); 
-
     var cssFiles = ['src/app/css/**/*.css'];
     var jsDest = 'dist';
 

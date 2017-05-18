@@ -2,7 +2,7 @@
   "name": "gm-back-to-top",
   "homepage": "https://github.com/Megale/gm-back-to-top",
   "authors": [
-    "Geraldo Megale <megale.petrobras.com.br>"
+    "Geraldo Megale <megale.geraldo@gmail.com>"
   ],
   "description": "An all angular back to top button that magically appears on your screen",
   "main": [
@@ -13,11 +13,15 @@
     "es6"
   ],
   "keywords": [
-    "backToTop",
+    "backToTop", 
     "angular",
+    
     "material",
+
     "top",
+
     "scroll",
+
     "wheel"
   ],
   "license": "MIT",
@@ -27,7 +31,7 @@
     "angular": ">1.5.3"
   },
   "ignore": [
-    "src",
+    "src", 
     ".gitignore",
     "gulp",
     "gulpfile.js",
