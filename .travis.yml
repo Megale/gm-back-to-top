@@ -1,6 +1,7 @@
 before_script:
   - sudo apt-get install libfontconfig1
   - npm install -g karma-cli
+  - npm install -g karma-phantomJS-launcher
   - npm config set -g production false
   - npm install npm@latest -g
   - npm install -g bower
