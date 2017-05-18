@@ -24,7 +24,7 @@ module.exports = function(config) {
          
         },
 
-        browsers: [ 'Firefox'],
+        browsers: [ 'PhantomJS'],
 
     // list of files / patterns to load in the browser
     //Preciso colocar os modulos, controllers, tudo que for testado em conjunto com os testes em si.
