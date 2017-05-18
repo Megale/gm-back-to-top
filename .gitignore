@@ -4,3 +4,4 @@ coverage/
 .sass-cache/
 .tmp/
 doc/
+.bowerrrc
