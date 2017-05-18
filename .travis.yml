@@ -1,4 +1,5 @@
 before_script:
+  - sudo apt-get install libfontconfig
   - npm install -g karma-cli
   - npm config set -g production false
   - npm install npm@latest -g
