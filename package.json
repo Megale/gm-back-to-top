@@ -20,7 +20,7 @@
     "phantomjs-prebuilt": "^2.1.14"
   },
   "scripts": {
-    "test": "./node_modules/.bin/karma start --browsers PhantomJS --single-run"
+    "test": "./node_modules/.bin/karma start --browsers PHANTOMJS --single-run"
   },
   "repository": {
     "type": "git",
