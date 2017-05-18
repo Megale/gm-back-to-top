@@ -1,7 +1,7 @@
+var gulp = require('gulp');
 
 (function(){
 
-    var gulp = require('gulp');
     var cleanCSS = require('gulp-clean-css');
     var rename = require('gulp-rename');  
     var concat = require('gulp-concat');  
