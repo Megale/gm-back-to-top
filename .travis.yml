@@ -1,0 +1,8 @@
+before_script:
+  - npm install npm@latest -g
+  - npm install -g bower
+  - bower install -f
+
+language: node_js
+node_js:
+ - 4.2.4
