@@ -1,4 +1,4 @@
-# gm-back-to-top
+# gm-back-to-top [![Build Status](https://travis-ci.org/Megale/gm-back-to-top.svg?branch=master)](https://travis-ci.org/Megale/gm-back-to-top)
 Angular/Angular Material "Back to Top Button" that magically appears on your page when you scroll down. If you already make use of angular and angular material, this is the component for you.
 
 
