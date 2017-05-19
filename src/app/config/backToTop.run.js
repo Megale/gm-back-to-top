@@ -10,5 +10,4 @@
 
     $log.debug('backToTop module loaded');
   }
-
 })();

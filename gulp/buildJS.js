@@ -22,5 +22,4 @@ var ngAnnotate = require('gulp-ng-annotate')
 
             .pipe(gulp.dest(jsDest));
     });
-
 }());
