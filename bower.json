@@ -1,0 +1,44 @@
+{
+  "name": "gm-back-to-top",
+  "homepage": "https://github.com/Megale/gm-back-to-top",
+  "authors": [
+    "Geraldo Megale <megale.geraldo@gmail.com>"
+  ],
+  "description": "An all angular back to top button that magically appears on your screen",
+  "main": [
+    "dist/gmBackToTop-min.js",
+    "dist/gmBackToTop-min.css"
+  ],
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "backToTop", 
+    "angular",
+    
+    "material",
+
+    "top",
+
+    "scroll",
+
+    "wheel"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "angular-material": "~1.1.0",
+    "angular": ">1.5.3"
+  },
+  "ignore": [
+    "src", 
+    ".gitignore",
+    "gulp",
+    "gulpfile.js",
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies": {
+    "angular-mocks": "~1.6.4"
+  }
+}
