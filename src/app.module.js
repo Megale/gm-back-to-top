@@ -1,6 +1,2 @@
-(function() {
-  'use strict';
+angular.module('app', ['gmBackToTop']);
 
-  angular
-    .module('app', ['gmBackToTop']);
-})();
