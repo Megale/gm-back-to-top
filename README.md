@@ -1,11 +1,12 @@
-# gm-back-to-top [![Build Status](https://travis-ci.org/Megale/gm-back-to-top.svg?branch=master)](https://travis-ci.org/Megale/gm-back-to-top)
+# gm-back-to-top [![Build Status](https://travis-ci.org/Megale/gm-back-to-top.svg?branch=master)](https://travis-ci.org/Megale/gm-back-to-top) [![Test Coverage](https://codeclimate.com/github/Megale/gm-back-to-top/badges/coverage.svg)](https://codeclimate.com/github/Megale/gm-back-to-top) [![Code Quality](https://codeclimate.com/github/Megale/gm-back-to-top/badges/gpa.svg)](https://codeclimate.com/github/Megale/gm-back-to-top) 
+
 Angular/Angular Material "Back to Top Button" that magically appears on your page when you scroll down. If you already make use of angular and angular material, this is the component for you.
 
 
 ![back-to-top](https://cloud.githubusercontent.com/assets/2500619/25964032/e31a19fc-3659-11e7-9038-63c2ef0d651d.PNG)
 
 ## Example
-Check [this](https://plnkr.co/edit/58MJaYsQpOKDkhYdMDBD) to get a hold of a simple example.
+Check this [plnkr](https://plnkr.co/edit/58MJaYsQpOKDkhYdMDBD) or gitHub [gh-pages](https://megale.github.io/gm-back-to-top/) to get a hold of a simple example. 
 
 ## How does it work?
 When the component notices a scroll on your page, a FAB button will appear on the bottom right of you screen. If you click it, it will take the page
@@ -14,17 +15,11 @@ to its top.
 ## Features
 - Change the speed of the scroll -> Change the gmspeed atribute to do so (in miliseconds). The acceleration of the scroll follows the COS(pi) curve so expect an easy in-out effect. 
 
-- Change the button's layout ->
-
-## Supported browsers
-
 ## Dependencies
 - Jquery
 - Angular
 - Angular Material
 - Material-Icons
-
-
 
 
 ## How do you use it? Four easy steps.
@@ -93,6 +88,5 @@ put it there. Check the example below:
 
 ````
 
-
-
+You can control how fast or how slow the scroll happens. Just change the gmspeed atribute to do so (in miliseconds). The acceleration of the scroll folows the COS(pi) curve so expect an easy in-out effect. 
 
