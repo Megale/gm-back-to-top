@@ -2,5 +2,5 @@
   'use strict';
 
   angular
-    .module('app', ['gmBackToTop']);
+    .module('app', ['backToTop']);
 })();
